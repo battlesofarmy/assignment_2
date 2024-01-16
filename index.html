@@ -5,14 +5,13 @@
     <meta name="description" content="This is a awesome Website"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World!</title>
-    <!---- ==========   Website FavIcon Link Here   ========== ---->
-    <link rel="icon" href="favicon.png" type="image/png">
     <!---- ==========   Website Font Familly Link Here   ========== ---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
     <!---- ==========   My Custom CSS Code   ========== ---->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 <!---- ==========   Navbar Section Design   ========== ---->
@@ -20,18 +19,50 @@
     <div class="container">
         <nav class="navbar">
           <div class="logo">
-            <a href="index.html"><img src="" alt="Website-logo"></a>
+            <a href="index.html">
+              <img src="assets/img/logo.png" alt="Website-logo"></a>
+              <span>Hero <span>Travel</span> </span>
           </div>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
     </div>
 </header>
 <!---- ==========   Banner Section Design   ========== ---->
+<section class="banner">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <h2>Explore Your Travel</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus et pariatur repellat, saepe eligendi id suscipit laborum voluptates natus aliquid.</p>
+        <div class="form">
+          <input type="text" placeholder="Where go">
+          
+          <select name="cars" id="cars" form="carform">
+            <option value="volvo">When</option>
+            <option value="saab">Morning</option>
+            <option value="opel">Evening</option>
+            <option value="audi">Night</option>
+          </select>
+  
+          <select name="cars" id="cars" form="carform">
+            <option value="volvo">Select Area</option>
+            <option value="saab">Dhaka</option>
+            <option value="opel">Gazipur</option>
+            <option value="audi">Shariyatpur</option>
+          </select>
+          
+          <input type="submit">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -50,6 +81,3 @@
     <p>©2024 - All Rights Reserved</p>
     </div>
 </footer>
-
-<!-- My Custom JS Code -->
-<script src="../assets/js/script.js"></script>
