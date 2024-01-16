@@ -1,151 +1,153 @@
-
 /* Remove it From here after Completing your job bro   -----------------------   */
 @media screen and (max-width: 600px) {
-    .title{
-        font-size: 26px;
-    }
-    .container{
-        margin: 0 20px;
-        padding: 60px 0;
-    }
-    footer .container{
-        padding: 0;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .banner .container{
-        margin: 0 30px;
-    }
-    .banner .content{
-        height: 600px;
-    }
-    .banner h2{
-        font-size: 32px;
-        margin-top: 40px;
-    }
-    .banner p{
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    .banner .form{
-        flex-direction: column;
-        margin-bottom: 100px !important;
-        width: 80%;
-        margin:auto;
-    }
-    .banner input, select{
-        width: 100%;
-    }
-    
-
-
-
-/* ----------======  Popular Tours Section Design  ======---------- */
-
-.popular .container{
+  /* ----------======  Global Section Design  ======---------- */
+  .title {
+    font-size: 26px;
+  }
+  .container {
+    margin: 0 20px;
     padding: 60px 0;
+  }
+  footer .container {
+    padding: 0;
+  }
+  .menu {
+    display: block;
+    font-size: 26px;
+    margin-right: 20px;
+  }
+
+  /* ----------======  Navbar Tours Section Design  ======---------- */
+  .navbar {
+    /* flex-direction: column; */
+    padding-top: 40px;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar span {
+    font-size: 28px;
+  }
+  .header .container {
+    padding: 0px;
+  }
+
+  /* ----------======  banner Tours Section Design  ======---------- */
+  .banner .content {
+    padding: 60px 20px;
+  }
+  .banner .container {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .banner h2 {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  .banner p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .banner .form {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .banner input,
+  select {
+    width: 100%;
+  }
+
+  /* ----------======  Popular Tours Section Design  ======---------- */
+
+  .popular .container {
+    padding-top: 60px;
+    padding-bottom: 0px;
     gap: 50px;
     flex-direction: column;
-}
-.popular img{
+  }
+  .popular img {
     width: 100%;
-}
+  }
 
+  /* ----------======  destination Tours Section Design  ======---------- */
 
+  .destination .grid-container {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f"
+      "g";
+    grid-template-columns: 1fr;
+  }
+  .destination {
+    padding-bottom: 0px;
+  }
 
-.destination .grid-container {
-    grid-template-areas: "a"
-    "b"
-    "c"
-    "d"
-    "e"
-    "f"
-    "g";
-grid-template-columns: 1fr;
-}
-
-
-
-
-
-
-
-/* ----------======  Deals Section Design  ======---------- */
-.deals {
+  /* ----------======  Deals Section Design  ======---------- */
+  .choose .boxs {
+    flex-direction: column;
+  }
+  /* ----------======  Deals Section Design  ======---------- */
+  .deals {
     padding: 20px 0;
     border-radius: 16px;
-}
-.deals .item{
+  }
+  .deals .item {
     height: 850px;
     display: flex;
     align-items: flex-end;
     border-radius: 46px;
     margin-top: 50px;
     padding: 50px 20px;
-}
-.deals .item .box{
+  }
+  .deals .item .box {
     padding: 50px 40px;
     width: 100%;
     /* margin-top: auto; */
-
-}
-.deals .box .icons div{
-   /* margin-right: 25px; */
-}
-.deals .box .icons i{
+  }
+  .deals .box .icons div {
+    /* margin-right: 25px; */
+  }
+  .deals .box .icons i {
     /* font-size: 18px; */
     /* color: var(--color); */
     /* margin-right: 10px; */
-}
-.deals .box .icons{
+  }
+  .deals .box .icons {
     flex-wrap: wrap;
-}
-.deals .box h2{
+  }
+  .deals .box h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 28px;
     font-weight: 700;
-}
-.deals .box h6{
+  }
+  .deals .box h6 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
     color: var(--color);
-}
+  }
 
-
-
-
-.simple .container{
+  .simple .container {
     padding: 60px 0;
     gap: 50px;
     flex-direction: column;
-}
-.simple img{
+  }
+  .simple img {
     width: 100%;
-}
+  }
 
-/* ----------======  Newslatter Section Design  ======---------- */
+  /* ----------======  Newslatter Section Design  ======---------- */
 
-.newsletter .container{
+  .newsletter .container {
     flex-direction: column;
-}
-.newsletter .form{
+  }
+  .newsletter .form {
     width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 }
