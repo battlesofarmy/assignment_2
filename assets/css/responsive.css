@@ -117,4 +117,35 @@ grid-template-columns: 1fr;
 
 
 
+.simple .container{
+    padding: 60px 0;
+    gap: 50px;
+    flex-direction: column;
+}
+.simple img{
+    width: 100%;
+}
+
+/* ----------======  Newslatter Section Design  ======---------- */
+
+.newsletter .container{
+    flex-direction: column;
+}
+.newsletter .form{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
