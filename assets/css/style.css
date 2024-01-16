@@ -29,6 +29,16 @@ img {
     font-size: 40px;
     font-weight: 700;
 }
+.btn{
+    border: none;
+    padding: 15px 30px;
+    background-color: var(--color);
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px 0;
+}
 
 /* ----------======  Navbar CSS styles  ======---------- */
 .navbar{
@@ -109,9 +119,186 @@ img {
     cursor: pointer;
 }
 
+/* ----------======  Popular Tours Section Design  ======---------- */
+
+.popular .container{
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    gap: 50px;
+}
+.popular .text{
+    flex-basis: 50%;
+}
+.popular img{
+    width: 90%;
+}
+.popular p{
+    margin: 20px 0;
+}
+.popular ul{
+    margin-left: 35px;
+}
+.popular ul li{
+    margin: 10px;
+}
+
+/* ----------======  Popular Tours Section Design  ======---------- */
+.destination{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.destination .grid-container{
+    display: grid;
+    grid-template-areas: "a a a a a a b b b b b b"
+                         "c c c d d d d d d e e e"
+                         "f f f f g g g g g g g g";
+    gap: 20px;
+    /* margin: 5px; */
+    /* max-width: 59%; */
+}
+.grid-container img{
+    width: 100%;
+    height: 100%;
+}
+.destination .item{
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(6, 6, 7, 0.2) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-color: #131318;
+    z-index: 5;
+}
+
+.destination .grid-container .item:nth-child(1){
+    grid-area: a;
+}
+
+.destination .grid-container .item:nth-child(2){
+    grid-area: b;
+}
+
+.destination .grid-container .item:nth-child(3){
+    grid-area: c;
+}
+
+.destination .grid-container .item:nth-child(4){
+    grid-area: d;
+}
+
+.destination .grid-container .item:nth-child(5){
+    grid-area: e;
+}
+
+.destination .grid-container .item:nth-child(6){
+    grid-area: f;
+}
+
+.grid-container .item:nth-child(7){
+    grid-area: g;
+}
+.grid-container {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.grid-container .item{
+    position: relative;
+}
+.grid-container .name{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    z-index: 20;
+}
+
+/* ----------======  Choose Tours Section Design  ======---------- */
+.choose img{
+    width: 100px;
+}
+.choose .boxs{
+    display: flex;
+    padding-top: 20px;
+}
+.choose .box1, .box2, .box3{
+    max-width: 600px;
+    margin: 10px;
+    padding: 40px 20px;
+}
+.choose .box1, .box3{
+    background-color: #FFFBF7;
+}
+.choose .box2{
+    background-color: #F4FDFF;
+}
+.choose .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------======  Deals Section Design  ======---------- */
+.deals {
+    padding: 80px;
+}
+.deals .item{
+    padding: 80px 60px;
+    border-radius: 16px;
+    margin: 20px 0;
+    background: url('../img/Group\ 39.png') no-repeat center center;
+    background-size: cover;
+}
+.deals .item2{
+    background: url('../img/Group\ 40.png') no-repeat center center;
+    background-size: cover;
+}
 
 
 
+
+
+
+
+
+
+
+.deals .item .box{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 60px 60px;
+    width: 60%;
+    margin-left: auto;
+}
+.deals .item2 .box{
+    margin: 0;
+}
+.deals .box .icons div{
+   margin-right: 25px;
+}
+.deals .box .icons{
+   display: flex;
+}
+.deals .box .icons i{
+    font-size: 18px;
+    color: var(--color);
+    margin-right: 10px;
+}
+.deals .box h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.deals .box h6{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--color);
+}
 
 
 
@@ -120,16 +307,37 @@ img {
 
 /* ----------======  Footer Section Design  ======---------- */
 footer{
-    background-color: #d1e0e0;
-    padding: 10px 0;
+    background-color: #1313180D;
+    padding-top: 60px;
+    text-align: center;
 }
 footer p{
     margin-bottom: 0;
+    padding: 20px 0;
 }
 
+footer .content{
+    padding: 40px 0;
+}
 
-
-
-
+footer .content i{
+    font-size: 32px;
+    margin: 12px;
+    cursor: pointer;
+}
+footer .content p{
+    max-width: 600px;
+    margin: auto;
+}
+footer .name span{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+}
+footer .name img{
+    margin-bottom: -12px;
+    margin-right: 10px;
+}
 
 
